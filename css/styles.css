@@ -30,7 +30,7 @@ p {
   margin: 0;
 }
 
-.conteiner {
+.container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -251,7 +251,7 @@ img {
 } */
 
 /* -----------------------------FOOTER---------------------------------- */
-.footer-conteiner {
+.footer-container {
   display: flex;
   align-items: baseline;
 }
