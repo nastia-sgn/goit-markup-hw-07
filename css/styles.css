@@ -485,16 +485,13 @@ input::placeholder {
   padding: 10px 32px;
 }
 
-/* --------------SECTIONS------- */
+/* -------------- SECTIONS ------- */
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 .img-section {
   padding-top: 0;
-}
-.section-team {
-  background-color: #f5f4fa;
 }
 
 .about-title-text {
@@ -535,7 +532,7 @@ input::placeholder {
   letter-spacing: 0.03em;
   text-align: center;
 }
-/* --------чем мы занимаемся------------- */
+/* --------what we are doing------------- */
 .section-img {
   display: flex;
 }
@@ -581,7 +578,11 @@ input::placeholder {
   margin-bottom: 30px;
 }
 
-/* ----------------PEOPLE CARD------------ */
+/* ----------------PEOPLE CARD comand------------ */
+.section-team {
+  background-color: #f5f4fa;
+}
+
 .list-people .section-list {
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -955,6 +956,7 @@ textarea::placeholder {
 }
 
 /*--------------------------- portfolio.html---------------------------- */
+/* -----------buttons----------------- */
 .projects-btn {
   display: flex;
   margin-bottom: 50px;
@@ -990,7 +992,7 @@ textarea::placeholder {
   color: #ffffff;
   background-color: var(--accent-color);
 }
-
+/* --------------section photo-card------------- */
 .project-title {
   margin: 0;
   margin-bottom: 4px;
