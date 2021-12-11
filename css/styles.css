@@ -105,7 +105,7 @@ p {
 }
 
 /* header+footer */
-.logo--blue {
+/* .logo--blue {
   color: var(--accent-color);
 }
 
@@ -225,6 +225,7 @@ p {
   margin-right: 10px;
 }
 */
+*/
 
 /* .contact-tel-mail::before {
   margin-right: 10px;
@@ -247,7 +248,7 @@ p {
 } */
 
 /* -----------------------------FOOTER---------------------------------- */
-.footer {
+/* .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
@@ -304,13 +305,13 @@ p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-}
+} */
 /* -----icons------------------- */
-.section-join {
+/* .section-join {
   margin-left: 70px;
-}
+} */
 /* common for next section */
-.footer-icon-title {
+/* .footer-icon-title {
   font-family: Roboto;
   font-weight: 700;
   font-size: 14px;
@@ -364,10 +365,10 @@ p {
   fill: var(--main-color);
   width: 20px;
   height: 20px;
-}
+} */
 
 /* -------------footer input-------------- */
-.follow {
+/* .follow {
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -435,7 +436,7 @@ input::placeholder {
   width: 24px;
   height: 24px;
   margin-left: 10px;
-}
+} */
 
 /*------------------------------- index.html------------------------------ */
 /* --------HERO------- */
