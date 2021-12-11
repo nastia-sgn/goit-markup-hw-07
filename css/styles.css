@@ -312,16 +312,17 @@ img {
   letter-spacing: 0.03em;
 }
 /* -----icons------------------- */
-.footer-icons {
+.section-join {
   margin-left: 70px;
 }
-
+/* common for next section */
 .footer-icon-title {
   font-family: Roboto;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+
   justify-content: center;
   align-items: center;
   color: var(--main-color);
@@ -329,7 +330,7 @@ img {
   margin-bottom: 20px;
 }
 
-.icon-list {
+.join {
   display: flex;
   justify-content: center;
 }
@@ -338,17 +339,18 @@ img {
   flex-grow: 1;
 }
 
-.f-sotial-link {
+.join__list {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   width: 44px;
   height: 44px;
 }
-.f-sotial-link + .f-sotial-link {
+
+.join__list + .join__list {
   margin-left: 10px;
 }
 
-.icon-size {
+.join__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -358,28 +360,32 @@ img {
     border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-size:hover,
-.icon-size:focus {
+.join__link:hover,
+.join__link:focus {
   background: var(--accent-color);
   border-radius: 50%;
 }
 
-.logo-item {
+.join__item {
   fill: var(--main-color);
   width: 20px;
   height: 20px;
 }
 
-.logo-svg {
-  fill: var(--main-color);
-}
 /* -------------footer input-------------- */
-.footer-input {
+.follow {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-left: 93px;
+}
+
+.follow-form {
   display: flex;
   flex-direction: column;
   margin-right: 12px;
 }
-.footer-label {
+.follow__label {
   margin-bottom: 20px;
 
   text-transform: uppercase;
@@ -390,7 +396,7 @@ img {
   color: var(--main-color);
 }
 
-.footer-input input {
+.follow-form input {
   /* margin-right: 12px; */
 
   width: 358px;
@@ -412,14 +418,7 @@ input::placeholder {
   filter: drop-shadow (0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
-.footer-input-btn {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  margin-left: 93px;
-}
-
-.footer-btn {
+.follow__btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -437,7 +436,7 @@ input::placeholder {
   border-radius: 4px;
 }
 
-.svg-plane {
+.follow__svg-plane {
   fill: currentColor;
   width: 24px;
   height: 24px;
