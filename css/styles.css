@@ -1,21 +1,13 @@
-/* hero #ffffff */
-/* #212121 section title */
-/* text #757575 
-button color #2196F3 and header nav 
-footer #ffffff 60%
-fill footer and hero #2F303A*/
-/* font roboto */
-
-:root {
+/* :root {
   --primery-text-color: #212121;
   --second-text-color: #757575;
   --accent-color: #2196f3;
   --adress-color: gba(255, 255, 255, 0.6);
   --main-color: #ffffff;
   --footer-adress: rgba(255, 255, 255, 0.6);
-}
+} */
 
-ul {
+/* ul {
   margin: 0;
   padding: 0;
 }
@@ -28,18 +20,18 @@ h5,
 h6,
 p {
   margin: 0;
-}
+} */
 
-.container {
+/* .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
   outline: 2px solid tomato;
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -50,32 +42,32 @@ p {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+} */
 
-.list {
+/* .list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 .link {
   text-decoration: none;
-}
+} */
 
-body {
+/* body {
   font-family: roboto, sans-serif;
   color: var(--primery-text-color);
   background-color: var(--main-color);
   font-size: 16px;
-}
+} */
 
-img {
+/* img {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} */
 
 /* -------------------------------HEADER--------------------------------- */
-.header-border {
+/* .header-border {
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
 .header-flex,
@@ -232,6 +224,7 @@ img {
   height: 16px;
   margin-right: 10px;
 }
+*/
 
 /* .contact-tel-mail::before {
   margin-right: 10px;
