@@ -471,18 +471,18 @@ input::placeholder {
 .hero__btn {
   border: transparent;
   /* width: 200px; */
-  cursor: pointer;
+  /* cursor: pointer;
   color: #ffffff;
   font-weight: 700;
   background-color: var(--accent-color);
   font-size: 16px;
   line-height: 1.87;
   border-radius: 4px;
-  padding: 10px 32px;
+  padding: 10px 32px; */
 } */
 
 /* -------------- SECTIONS about ------- */
-
+/* 
 .section-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -541,10 +541,10 @@ input::placeholder {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-}
+} */
 
 /* --------what we are doing------------- */
-.img-section {
+/* .img-section {
   padding-top: 0;
 }
 
@@ -579,10 +579,10 @@ input::placeholder {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-}
+} */
 
 /* ----------------PEOPLE CARD comand------------ */
-.section-team {
+/* .section-team {
   background-color: #f5f4fa;
 }
 
@@ -622,7 +622,7 @@ input::placeholder {
   text-align: center;
 }
 /* -----icons--------------------- */
-.social-icons {
+/* .social-icons {
   display: flex;
   justify-content: center;
   margin-top: 16px;
@@ -660,10 +660,11 @@ input::placeholder {
 .people__link-icon:hover .people__isvg,
 .people__link-icon:focus .people__isvg {
   fill: #ffffff;
-}
+}  */
 
 /* -----------CLIENTS------------------- */
-.clients {
+
+/* .clients {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -703,9 +704,11 @@ input::placeholder {
 .clients__link:focus .clients__icon {
   fill: var(--accent-color);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
+} */
+
+
 /* --------------modal------------------------ */
-.backdrop.is-hidden {
+/* .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
 }
@@ -724,9 +727,9 @@ input::placeholder {
 
 .backdrop:hover {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.modal {
+/* .modal {
   padding: 40px;
   position: absolute;
   min-width: 528px;
@@ -769,10 +772,10 @@ input::placeholder {
 .modal__close-btn:hover .modal__icon-close-btn,
 .modal__close-btn:focus .modal__icon-close-btn {
   fill: var(--accent-color);
-}
+} */
 
 /* --------------modal-FORM------------------------------- */
-.modal__title {
+/* .modal__title {
   text-align: center;
 
   font-weight: 700;
@@ -790,7 +793,7 @@ input::placeholder {
   margin-bottom: 10px;
 }
 /* для инпут и текстэрия */
-.form__label-name {
+/* .form__label-name {
   margin-bottom: 4px;
 
   font-weight: 400;
@@ -865,9 +868,9 @@ textarea::placeholder {
   line-height: 1.14;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
-}
+} */
 /* ------------confirmation----------------- */
-.confirmation {
+/* .confirmation {
   position: relative;
   display: flex;
   align-items: center;
@@ -933,7 +936,7 @@ textarea::placeholder {
   fill: var(--main-color);
   /* transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
-.form__conditions {
+/* .form__conditions {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -963,11 +966,11 @@ textarea::placeholder {
   cursor: pointer;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+}  */ */
 
 /*--------------------------- portfolio.html---------------------------- */
 /* -----------buttons----------------- */
-.buttons {
+/* .buttons {
   display: flex;
   margin-bottom: 50px;
   justify-content: center;
@@ -1005,10 +1008,10 @@ textarea::placeholder {
 .button__link:focus {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
 /* --------------section photo-card------------- */
-.card {
+/* .card {
   display: flex;
   flex-wrap: wrap;
 
@@ -1100,4 +1103,4 @@ textarea::placeholder {
 
 .card .card__list {
   width: calc(100% / 3 - 30px);
-}
+} */
