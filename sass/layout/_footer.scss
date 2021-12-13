@@ -89,10 +89,10 @@
   border-radius: 50%;
   width: 44px;
   height: 44px;
-}
 
-.join__list + .join__list {
-  margin-left: 10px;
+  & + & {
+    margin-left: 10px;
+  }
 }
 
 .join__link {
@@ -103,12 +103,12 @@
   height: 44px;
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.join__link:hover,
-.join__link:focus {
-  background: var(--accent-color);
-  border-radius: 50%;
+  &:hover,
+  &:focus {
+    background: var(--accent-color);
+    border-radius: 50%;
+  }
 }
 
 .join__item {
@@ -119,9 +119,9 @@
 
 /* -------------footer input-------------- */
 .follow {
-  display: flex;
+  @extend %display;
+
   justify-content: center;
-  align-items: flex-end;
   margin-left: 93px;
 }
 
@@ -164,8 +164,7 @@ input::placeholder {
 }
 
 .follow__btn {
-  display: flex;
-  align-items: center;
+  @extend %display;
   justify-content: center;
 
   width: 200px;

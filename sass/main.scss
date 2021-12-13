@@ -1,22 +1,22 @@
 @import './utils/visually-hidden';
 @import './utils/container';
 @import './utils/vars';
+@import './utils/common-placeholder';
 
 @import './base/reset';
 @import './base/body-base';
 
-@import './components/modal-backdrop';
-@import './components/modal';
-@import './components/form-modal';
-
 @import './layout/header';
 @import './layout/footer';
 
-@import './hero';
-@import './about-section';
-@import './doing-section';
-@import './people-card-section';
-@import './clients-section';
+@import './components/modal-backdrop';
+@import './components/modal';
+@import './components/form-modal';
+@import './components/hero';
+@import './components/about-section';
+@import './components/doing-section';
+@import './components/people-card-section';
+@import './components/clients-section';
 
-@import './portfolio-buttons';
-@import './portfolio-photo-gallary';
+@import './components/portfolio-buttons';
+@import './components/portfolio-photo-gallary';
