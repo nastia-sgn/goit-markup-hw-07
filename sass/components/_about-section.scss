@@ -8,20 +8,15 @@
   text-align: center;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .about {
   display: flex;
 }
 
 .about__list {
   margin-right: 30px;
-}
-.about__list:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .bg-icon {

@@ -6,14 +6,15 @@
   display: flex;
 }
 
-.people .people__list {
+.people__list {
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-}
-.people__list:not(:last-child) {
-  margin-right: 30px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .about-people {
@@ -46,19 +47,30 @@
 .social-icons__list {
   width: 44px;
   height: 44px;
-}
-.social-icons__list + .social-icons__list {
-  margin-left: 10px;
+
+  & + & {
+    margin-left: 10px;
+  }
 }
 
 .people__link-icon {
   width: 44px;
   height: 44px;
+  @extend %display;
   justify-content: center;
-  display: flex;
-  align-items: center;
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    border-radius: 50%;
+  }
+
+  &:hover .people__isvg,
+  &:focus .people__isvg {
+    fill: #ffffff;
+  }
 }
 
 .people__isvg {
@@ -66,14 +78,4 @@
   width: 20px;
   height: 20px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.people__link-icon:hover,
-.people__link-icon:focus {
-  background-color: var(--accent-color);
-  border-radius: 50%;
-}
-.people__link-icon:hover .people__isvg,
-.people__link-icon:focus .people__isvg {
-  fill: #ffffff;
 }

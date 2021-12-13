@@ -42,10 +42,13 @@
   border-color: rgba(33, 33, 33, 0.2);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
-}
+  &:focus {
+    border: 1px solid var(--accent-color);
+  }
 
-.form__input:focus {
-  border: 1px solid var(--accent-color);
+  &:focus + .form__input-icons {
+    fill: var(--accent-color);
+  }
 }
 
 .form__input-icons {
@@ -58,10 +61,6 @@
   left: 12px;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.form__input:focus + .form__input-icons {
-  fill: var(--accent-color);
 }
 
 .textarea {
@@ -80,19 +79,19 @@ textarea {
   border-width: 1px;
   background-color: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus {
+    border-color: var(--accent-color);
+  }
+
+  &::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.14;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+  }
 }
 
-textarea:focus {
-  border-color: var(--accent-color);
-}
-
-textarea::placeholder {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.14;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-}
 /* ------------confirmation----------------- */
 .confirmation {
   position: relative;
@@ -120,17 +119,29 @@ textarea::placeholder {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+
+  &:focus + .form__label-icon span {
+    border: 2px solid var(--primery-text-color);
+  }
+  &:checked + .form__check-icon {
+    background-origin: border-box;
+  }
+  &:checked + .form__check-icon {
+    background-origin: border-box;
+  }
+  &:checked + .form__label-icon span {
+    background-color: var(--accent-color);
+    border: none;
+  }
 }
 
 .form__label-icon {
-  display: flex;
+  @extend %display;
   justify-content: center;
-  align-items: center;
 }
 
 .form__label-icon span {
-  display: flex;
-  align-items: center;
+  @extend %display;
   justify-content: center;
 
   margin-right: 8px;
@@ -141,19 +152,6 @@ textarea::placeholder {
   border: 2px solid var(--primery-text-color);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.form__checkbox:focus + .form__label-icon span {
-  border: 2px solid var(--primery-text-color);
-}
-
-.form__checkbox:checked + .form__check-icon {
-  background-origin: border-box;
-}
-
-.form__checkbox:checked + .form__label-icon span {
-  background-color: var(--accent-color);
-  border: none;
 }
 
 .form__check-icon {
