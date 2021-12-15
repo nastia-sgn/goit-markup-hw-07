@@ -1,8 +1,8 @@
-.header-border {
+.header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
-.header-flex,
-.header,
+.header__container,
+.navigation,
 .site-nav,
 .contacts {
   @extend %display;
@@ -36,20 +36,20 @@
 }
 
 /* header+footer */
-.logo--blue {
+.logo__blue {
   color: var(--accent-color);
 }
 
-.header {
+.navigation {
   margin-left: 93px;
 }
 
-.header__item .nav {
+.navigation__item .nav {
   padding: 32px 0px;
   display: block;
 }
 
-.header__item {
+.navigation__item {
   position: relative;
   margin-right: 50px;
 
@@ -125,7 +125,7 @@
   margin-right: 10px;
 }
 
-.contacts__tel {
+.contacts__item--tel {
   margin-left: 50px;
   @extend %display;
 }

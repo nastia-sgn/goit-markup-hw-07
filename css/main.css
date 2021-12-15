@@ -30,10 +30,10 @@
   --footer-adress: rgba(255, 255, 255, 0.6);
 }
 
-.header-flex,
-.header,
+.header__container,
+.navigation,
 .site-nav,
-.contacts, .contacts__link-mail, .contacts__tel, .contacts__link-tel, .follow, .follow__btn, .modal__close-btn, .form__label-icon, .form__label-icon span, .bg-img-content, .people__link-icon, .clients {
+.contacts, .contacts__link-mail, .contacts__item--tel, .contacts__link-tel, .follow, .follow__btn, .modal__close-btn, .form__label-icon, .form__label-icon span, .bg-img-content, .people__link-icon, .clients {
   display: flex;
   align-items: center;
 }
@@ -81,7 +81,7 @@ body {
   font-size: 16px;
 }
 
-.header-border {
+.header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
 
@@ -112,25 +112,25 @@ body {
 }
 
 /* header+footer */
-.logo--blue {
+.logo__blue {
   color: var(--accent-color);
 }
 
-.header {
+.navigation {
   margin-left: 93px;
 }
 
-.header__item .nav {
+.navigation__item .nav {
   padding: 32px 0px;
   display: block;
 }
 
-.header__item {
+.navigation__item {
   position: relative;
   margin-right: 50px;
 }
 
-.header__item:last-child {
+.navigation__item:last-child {
   margin-right: 0;
 }
 
@@ -196,7 +196,7 @@ body {
   margin-right: 10px;
 }
 
-.contacts__tel {
+.contacts__item--tel {
   margin-left: 50px;
 }
 
