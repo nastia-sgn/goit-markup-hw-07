@@ -1,24 +1,27 @@
 @import './utils/visually-hidden';
-@import './utils/container';
-@import './utils/vars';
+
 @import './utils/common-placeholder';
-@import './utils/common-section-padding';
-@import './utils/common-section__title';
 
 @import './base/reset';
 @import './base/body-base';
+@import './base/common-section-padding';
+@import './base/common-section__title';
+@import './base/vars';
+@import './base/container';
 
 @import './layout/header';
+
+@import './layout/people-card-section';
+@import './layout/hero';
+@import './layout/about-section';
+@import './layout/doing-section';
+@import './layout/clients-section';
+
 @import './layout/footer';
+
+@import './layout/portfolio-buttons';
+@import './layout/portfolio-photo-gallary';
 
 @import './components/modal-backdrop';
 @import './components/modal';
 @import './components/form-modal';
-@import './components/hero';
-@import './components/about-section';
-@import './components/doing-section';
-@import './components/people-card-section';
-@import './components/clients-section';
-
-@import './components/portfolio-buttons';
-@import './components/portfolio-photo-gallary';
