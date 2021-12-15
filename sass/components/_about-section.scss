@@ -12,14 +12,14 @@
   display: flex;
 }
 
-.about__list {
+.about__item {
   margin-right: 30px;
   &:last-child {
     margin-right: 0;
   }
 }
 
-.bg-icon {
+.about__box {
   display: flex;
   align-items: center;
   justify-content: center;
