@@ -33,7 +33,7 @@
 .header__container,
 .navigation,
 .site-nav,
-.contacts, .contacts__link-mail, .contacts__item--tel, .contacts__link-tel, .follow, .follow__btn, .modal__close-btn, .form__label-icon, .form__label-icon span, .doing__box, .people__link-icon, .clients {
+.contacts, .contacts__link-mail, .contacts__item--tel, .contacts__link-tel, .follow, .follow__btn, .modal__close-btn, .form__label-icon, .form__label-icon span, .doing__box, .social-icons__link, .clients {
   display: flex;
   align-items: center;
 }
@@ -792,7 +792,7 @@ textarea::placeholder {
   letter-spacing: 0.03em;
 }
 
-.section-team {
+.section--other-bg {
   background-color: #f5f4fa;
 }
 
@@ -800,22 +800,22 @@ textarea::placeholder {
   display: flex;
 }
 
-.people__list {
+.people__item {
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.people__list:not(:last-child) {
+.people__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.about-people {
+.people__thumb {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.people__name {
+.people__title {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -839,16 +839,16 @@ textarea::placeholder {
   margin-top: 16px;
 }
 
-.social-icons__list {
+.social-icons__item {
   width: 44px;
   height: 44px;
 }
 
-.social-icons__list + .social-icons__list {
+.social-icons__item + .social-icons__item {
   margin-left: 10px;
 }
 
-.people__link-icon {
+.social-icons__link {
   width: 44px;
   height: 44px;
   justify-content: center;
@@ -856,17 +856,17 @@ textarea::placeholder {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.people__link-icon:hover, .people__link-icon:focus {
+.social-icons__link:hover, .social-icons__link:focus {
   background-color: var(--accent-color);
   border-radius: 50%;
 }
 
-.people__link-icon:hover .people__isvg,
-.people__link-icon:focus .people__isvg {
+.social-icons__link:hover .social-icons__icon,
+.social-icons__link:focus .social-icons__icon {
   fill: #ffffff;
 }
 
-.people__isvg {
+.social-icons__icon {
   fill: #afb1b8;
   width: 20px;
   height: 20px;

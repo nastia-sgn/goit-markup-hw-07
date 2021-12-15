@@ -1,4 +1,4 @@
-.section-team {
+.section--other-bg {
   background-color: #f5f4fa;
 }
 
@@ -6,7 +6,7 @@
   display: flex;
 }
 
-.people__list {
+.people__item {
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -17,12 +17,12 @@
   }
 }
 
-.about-people {
+.people__thumb {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.people__name {
+.people__title {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -44,7 +44,8 @@
   justify-content: center;
   margin-top: 16px;
 }
-.social-icons__list {
+
+.social-icons__item {
   width: 44px;
   height: 44px;
 
@@ -53,7 +54,7 @@
   }
 }
 
-.people__link-icon {
+.social-icons__link {
   width: 44px;
   height: 44px;
   @extend %display;
@@ -67,13 +68,13 @@
     border-radius: 50%;
   }
 
-  &:hover .people__isvg,
-  &:focus .people__isvg {
+  &:hover .social-icons__icon,
+  &:focus .social-icons__icon {
     fill: #ffffff;
   }
 }
 
-.people__isvg {
+.social-icons__icon {
   fill: #afb1b8;
   width: 20px;
   height: 20px;
