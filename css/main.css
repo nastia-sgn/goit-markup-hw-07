@@ -33,7 +33,7 @@
 .header__container,
 .navigation,
 .site-nav,
-.contacts, .contacts__link-mail, .contacts__item--tel, .contacts__link-tel, .follow, .follow__btn, .modal__close-btn, .form__label-icon, .form__label-icon span, .bg-img-content, .people__link-icon, .clients {
+.contacts, .contacts__link-mail, .contacts__item--tel, .contacts__link-tel, .follow, .follow__btn, .modal__close-btn, .form__label-icon, .form__label-icon span, .doing__box, .people__link-icon, .clients {
   display: flex;
   align-items: center;
 }
@@ -41,6 +41,16 @@
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.section__title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 
 ul {
@@ -699,16 +709,6 @@ textarea::placeholder {
   padding: 10px 32px;
 }
 
-.section-title {
-  margin-top: 0;
-  margin-bottom: 50px;
-  font-style: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-align: center;
-}
-
 .about {
   display: flex;
 }
@@ -756,7 +756,7 @@ textarea::placeholder {
   letter-spacing: 0.03em;
 }
 
-.img-section {
+.section--padding {
   padding-top: 0;
 }
 
@@ -764,15 +764,15 @@ textarea::placeholder {
   display: flex;
 }
 
-.doing__list {
+.doing__item {
   position: relative;
 }
 
-.doing__list:not(:last-child) {
+.doing__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.bg-img-content {
+.doing__box {
   position: absolute;
   justify-content: center;
   bottom: 0;
