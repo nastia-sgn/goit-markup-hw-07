@@ -35,13 +35,13 @@ p {
   margin: 0;
 }
 
-.list {
+ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.link {
+a {
   text-decoration: none;
 }
 
