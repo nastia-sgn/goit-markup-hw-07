@@ -95,19 +95,6 @@ body {
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
 
-.nav {
-  font-weight: 500;
-  color: var(--primery-text-color);
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.nav:hover, .nav:focus {
-  color: var(--accent-color);
-}
-
 .logo {
   color: var(--primery-text-color);
   font-family: raleway;
@@ -140,6 +127,16 @@ body {
   margin-right: 0;
 }
 
+.nav {
+  display: inline-block;
+  font-weight: 500;
+  color: var(--primery-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .nav::after {
   content: '';
   display: block;
@@ -154,8 +151,8 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav {
-  display: inline-block;
+.nav:hover, .nav:focus {
+  color: var(--accent-color);
 }
 
 .nav:hover::after, .nav:focus::after {
