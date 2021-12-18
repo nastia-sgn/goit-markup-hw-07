@@ -22,10 +22,6 @@
   }
 }
 
-.site-nav .nav.current {
-  color: var(--accent-color);
-}
-
 .logo {
   color: var(--primery-text-color);
   font-family: raleway;
@@ -82,9 +78,13 @@
     transform: scaleX(1);
   }
 }
+// .site-nav .nav.current {
+//   color: var(--accent-color);
+// }
 
 .current {
   position: relative;
+  color: var(--accent-color);
 
   &::after {
     position: absolute;
