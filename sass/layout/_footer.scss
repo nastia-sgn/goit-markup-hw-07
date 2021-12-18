@@ -119,8 +119,8 @@
 
 /* -------------footer input-------------- */
 .follow {
-  @extend %display;
-
+  display: flex;
+  align-items: flex-end;
   justify-content: center;
   margin-left: 93px;
 }
