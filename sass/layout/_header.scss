@@ -116,10 +116,9 @@
   }
 }
 
-.contacts__icon-mail {
+.contacts__icon {
   fill: currentColor;
-  width: 16px;
-  height: 12px;
+
   margin-right: 10px;
 }
 
@@ -128,12 +127,12 @@
   @extend %display;
 }
 
-.contacts__icon-tel {
-  fill: currentColor;
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-}
+// .contacts__icon-tel {
+//   fill: currentColor;
+//   width: 10px;
+//   height: 16px;
+//   margin-right: 10px;
+// }
 
 /* .contact-tel-mail::before {
   margin-right: 10px;
